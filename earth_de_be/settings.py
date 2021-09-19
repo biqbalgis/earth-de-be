@@ -132,5 +132,5 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SENTINAL_USER = local_setting.get_data('SENTINAL_USER')
-SENTINAL_PASSWORD = local_setting.get_data('SENTINAL_PASSWORD')
+SENTINAL_USER = local_setting.get_data('DB_USER')
+SENTINAL_PASSWORD = local_setting.get_data('DB_PASSWORD')
